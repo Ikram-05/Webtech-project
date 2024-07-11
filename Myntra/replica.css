@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+article{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+nav{
+    height: 100%;
+    width: 98%;
+    background-color: white;
+    display: flex;
+    box-shadow: 0px 1px 2px gray;
+    
+}
+nav>div.logo{
+    width: 10%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav>div.logo>img{
+    width: 50%;
+    height: 70%;
+    
+}
+nav>div.group{
+    width: 45%;
+    height: 100%;
+    /* background-color:blueviolet; */
+    
+}
+nav>div.group>ol{
+    height: 100%;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+nav>div.group>ol>li>a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    
+}
+sup{
+    color: crimson;
+}
+nav>div.search{
+    width: 35%;
+    height: 100%;
+    /* background-color:red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav>div.search>div{
+    width: 80%;
+    height: 50%;
+    /* background-color: brown; */
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+}
+
+nav>div.menu{
+    width: 15%;
+    height: 100%;
+    background-color:blue;
+}
