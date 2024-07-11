@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+nav>section{
+    height: 100%;
+    width: 85%;
+    /* background-color: brown; */
+    display: flex;
+
+}
+nav>section>.logo{
+    height: 100%;
+    width: 60%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+}
+nav>section>.logo>svg{
+    width: 19%;
+    fill: white;
+    
+}
+nav>section>.menu{
+    height: 100%;
+    width: 40%;
+    /* background-color:red; */
+}
+nav>section>.menu>ol{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+    
+    
+
+}
+nav>section>.menu>ol>li>a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold ;
+}
+
+section#body{
+    height: 98vh;
+    width: 100%;
+    background: url(/Assests/bubbles-dktp.svg) center -138px / 100% 1068px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));;
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+}
+section#body>div.design{
+    width: 30%;
+    height: 80%;
+    background-color: white;
+}
